@@ -7,7 +7,7 @@ const { items } = useCart();
     <header class="site-header">
       <NuxtLink to="/">
         <div class="site-logo">
-          <span>Nuxt Shop</span>
+          <span>Nuxt Examples</span>
         </div>
       </NuxtLink>
   

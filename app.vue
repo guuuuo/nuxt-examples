@@ -8,11 +8,11 @@
 </template>
 
 <script setup lang="ts">
-const title = ref("Nuxt Shop");
+const title = ref("Nuxt Examples")
 const description = ref("A simple shop built with Nuxt.");
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Nuxt Shop` : "Nuxt Shop";
+    return titleChunk ? `${titleChunk} - Nuxt Examples` : "Nuxt Examples";
   },
   meta: [
     //Open Graph
